@@ -1,7 +1,11 @@
 {
   "inputs": {
+    "index.html.inline.0.css": {
+      "bytes": 155,
+      "imports": []
+    },
     "css/styles.css": {
-      "bytes": 22742,
+      "bytes": 22957,
       "imports": []
     },
     "scss/styles.css": {
@@ -55,6 +59,15 @@
     }
   },
   "outputs": {
+    "../~~bundle~~/index.html.inline.0.css": {
+      "imports": [],
+      "inputs": {
+        "index.html.inline.0.css": {
+          "bytesInOutput": 86
+        }
+      },
+      "bytes": 87
+    },
     "../~~bundle~~/js/index.js": {
       "imports": [],
       "exports": [],
@@ -87,13 +100,13 @@
       "imports": [],
       "inputs": {
         "css/styles.css": {
-          "bytesInOutput": 12940
+          "bytesInOutput": 13126
         },
         "scss/styles.css": {
           "bytesInOutput": 1304
         }
       },
-      "bytes": 14245
+      "bytes": 14431
     }
   }
 }
