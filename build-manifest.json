@@ -1,0 +1,99 @@
+{
+  "inputs": {
+    "css/styles.css": {
+      "bytes": 22742,
+      "imports": []
+    },
+    "scss/styles.css": {
+      "bytes": 1535,
+      "imports": []
+    },
+    "js/functions/hello-world.js": {
+      "bytes": 68,
+      "imports": []
+    },
+    "js/functions/anchor-links.js": {
+      "bytes": 1276,
+      "imports": []
+    },
+    "js/functions/tab-index.js": {
+      "bytes": 560,
+      "imports": []
+    },
+    "_snowpack/pkg/@fortawesome/fontawesome-pro/js/all.js": {
+      "bytes": 5954503,
+      "imports": []
+    },
+    "js/index.js": {
+      "bytes": 854,
+      "imports": [
+        {
+          "path": "css/styles.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "scss/styles.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "js/functions/hello-world.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "js/functions/anchor-links.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "js/functions/tab-index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/@fortawesome/fontawesome-pro/js/all.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/js/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "css/styles.css": {
+          "bytesInOutput": 0
+        },
+        "scss/styles.css": {
+          "bytesInOutput": 0
+        },
+        "js/functions/hello-world.js": {
+          "bytesInOutput": 45
+        },
+        "js/functions/anchor-links.js": {
+          "bytesInOutput": 243
+        },
+        "js/functions/tab-index.js": {
+          "bytesInOutput": 96
+        },
+        "_snowpack/pkg/@fortawesome/fontawesome-pro/js/all.js": {
+          "bytesInOutput": 5816267
+        },
+        "js/index.js": {
+          "bytesInOutput": 79
+        }
+      },
+      "bytes": 5816874
+    },
+    "../~~bundle~~/js/index.css": {
+      "imports": [],
+      "inputs": {
+        "css/styles.css": {
+          "bytesInOutput": 12940
+        },
+        "scss/styles.css": {
+          "bytesInOutput": 1304
+        }
+      },
+      "bytes": 14245
+    }
+  }
+}

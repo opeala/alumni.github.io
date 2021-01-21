@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Starter Snowpack App">
+    <title>Alumni Article</title>
+  <link rel="stylesheet" href="/js/index.css"></head>
+  <body style="opacity: 0;">
+    <!-- Header -->
+    <header class="header bg-darkBlue-600 px-9 md:px-0">
+      <div class="header__container max-w-screen-lg mx-auto flex justify-between py-4">
+        <img class="header__container__image" src="./media/images/NEC_Group_Alumni_White.png" alt>
+        <p class="header__container__text text-right text-white uppercase flex items-center justify-end text-lg font-black tracking-widest	">Keeping lasting connections</p>
+      </div>
+    </header>
+
+    <!-- Article page banner -->
+    <section class="banner md:bg-white md:py-5 mb-6">
+        <div class="banner__container max-w-screen-lg mx-auto flex px-9 md:px-0 md:flex-row flex-col-reverse justify-between">
+            <div class="banner__container__info flex flex-row items-center justify-start">
+                <img src="./media/images/gold_disk.png" alt="Alumni Disk">
+                <h2>Alumni News &amp; Updates</h2>
+            </div>
+            <a href="/" class="banner__container__back bg-white flex items-center tabindex py-2 -mx-9 px-9 mb-4 md:mx-0 md:px-0 md:mb-0 text-link-color">
+                <i class="fal fa-angle-left mr-3"></i>
+                Back to Home Page
+            </a>
+        </div>
+    </section>
+
+    <!-- Main article section -->
+    <section class="article">
+        <div class="article__container max-w-screen-lg mx-auto flex px-9 md:px-0 md:flex-row flex-col justify-between items-center">
+            <!-- Article Content -->
+            <div class="article__container__content md:w-8/12 w-full text-darkBlue-500 md:mb-10">
+                <div class="article__container__content__intro mb-4">
+                    <h1 class="article__container__content__intro__title text-2xl font-black mb-3">
+                        Title of news update to go here
+                    </h1>
+                    <p class="article__container__content__intro__date text-sm">
+                        Date of posting
+                    </p>
+                    <p class="article__container__content__intro__author text-sm">
+                        Name of person
+                    </p>
+                </div>
+                <p class="article__container__content__paragraph text-sm mb-3">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                </p>
+                <img src="./media/images/stock-image-1.png" alt="stock-image-1" class="article__container__content__image w-full rounded mb-3">
+                <p class="article__container__content__paragraph text-sm mb-3">
+                    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <!-- Article Sidebar -->
+            <div class="article__container__sidebar md:w-3/12 w-full">
+                <!-- Hidden Mobile back Button -->
+                <a href="/" class="hidden-mobile-back-button rounded w-min p-3 text-white font-black text-base flex flex-row whitespace-nowrap mt-2 items-center tabindex mx-auto my-8 md:hidden bg-link-color">
+                    <i class="fal fa-arrow-circle-left mr-2 text-xl"></i>
+                    Back to Home
+                </a>
+                <!-- sidebar form -->
+                <div class="article__container__sidebar__form bg-white p-4 md:flex flex-col items-center rounded shadow-md mb-9 hidden relative">
+                    <div class="article__container__sidebar__form__intro transition-all opacity-100 flex flex-col items-center">
+                        <i class="article__container__sidebar__form__intro__icon fal fa-envelope text-3xl mb-3 text-icon-color"></i>
+                        <p class="article__container__sidebar__form__intro__title mb-3 font-black text-lg text-title-color">Newsletter Sign Up</p>
+                        <form action class="flex flex-col items-center text-sm">
+                            <input class="w-full rounded-lg py-2 px-3 mb-3 border-solid border tabindex" type="text" name="fname" id="fname" placeholder="First Name">
+                            <input class="w-full rounded-lg py-2 px-3 mb-3 border-solid border tabindex" type="text" name="lname" id="lname" placeholder="Last Name">
+                            <input class="w-full rounded-lg py-2 px-3 mb-3 border-solid border tabindex" type="email" name="email" id="email" placeholder="Personal Email Address">
+                            <div class="checkbox-container flex flex-col">
+                            <label class="w-full mb-2 text-sm font-black" for="newscheck">
+                                <input class="mr-2 rounded p-3 tabindex" type="checkbox" name="newscheck" id="newscheck">
+                                Send me news and updates
+                            </label>
+                            <label class="w-full mb-2 text-sm font-black" for="vacancyupdates">
+                                <input class="mr-2 rounded p-3 tabindex" type="checkbox" name="vacancyupdates" id="vacancyupdates">
+                                Send me job vacancy updates
+                            </label>
+                            </div>
+                            <button class="rounded w-min p-3 text-white font-black text-base flex flex-row whitespace-nowrap mt-2 items-center tabindex bg-link-color" type="submit">
+                            <i class="fal fa-arrow-circle-right mr-2 text-xl"></i>
+                            Sign Up
+                            </button>
+                        </form>
+                        <p class="hero__container__form__intro__info text-darkBlue-500 text-xs mt-3 font-normal">
+                        By entering your details you will be indicating your consent for The NEC Group to send you e-mails which we think you may be interested in. For more information about the companies within The NEC Group and how we use your information, please see our <a href="#" class="underline tabindex">Privacy Policy.</a>
+                        </p>
+                    </div>
+                    <div class="article__container__sidebar__form__outro md:px-7 md:py-3 p-5 flex flex-col items-center justify-center text-center absolute top-0 right-0 bottom-0 left-0 transition-all opacity-0 pointer-events-none">
+                        <i class="fal fa-check-circle text-5xl mb-5 text-icon-color"></i>
+                        <p class="article__container__sidebar__form__outro__title text-2xl font-black mb-5 text-title-color">
+                          Thank you for signing up
+                        </p>
+                        <p class="article__container__sidebar__form__outro__content text-darkBlue-500 text-sm">
+                          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                        </p>
+                    </div>
+                </div>
+                <!-- sidebar links -->
+                <div class="article__container__sidebar__links bg-white p-4 flex flex-col items-center rounded shadow-md mb-9 text-center">
+                    <h4 class="article__container__sidebar__links__title font-black text-lg mb-4 text-title-color">
+                        More Alumni News
+                    </h4>
+                    <ul class="article__container__sidebar__links__list text-base font-medium leading-5">
+                        <li class="mb-6 flex flex-col items-center"><a class="tabindex text-link-color" href="#">
+                            Title of news update to go here and can go over a few lines
+                        </a></li>
+                        <li class="mb-6 flex flex-col items-center"><a class="tabindex text-link-color" href="#">
+                            Title of news update to go here and can go over a few lines
+                        </a></li>
+                        <li class="mb-6 flex flex-col items-center"><a class="tabindex text-link-color" href="#">
+                            Title of news update to go here and can go over a few lines
+                        </a></li>
+                    </ul>
+                    <img class="article__container__sidebar__links__image mb-4" src="./media/images/NEC_Group_Alumni_Blue.png" alt>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional footer: -->
+    <!-- <footer class="footer bg-darkBlue-600 p-5">
+      <div class="footer__container max-w-screen-lg mx-auto">
+        
+      </div>
+    </footer> -->
+
+    <script type="module" src="js/index.js"></script>
+  
+</body></html>

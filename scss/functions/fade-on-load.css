@@ -1,0 +1,8 @@
+.loadHidden {
+  opacity: 0;
+}
+
+.loadVisible {
+  opacity: 1 !important;
+  transition: opacity 1s ease-out;
+}

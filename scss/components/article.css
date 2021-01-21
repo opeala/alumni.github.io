@@ -1,0 +1,10 @@
+.article__container__sidebar__form__intro form input, .article__container__sidebar__form__intro form textarea {
+  border-color: #283244;
+}
+.article__container__sidebar__links__list li::after {
+  content: "";
+  border: 2px solid #A3A3A3;
+  width: 30px;
+  border-radius: 10px;
+  margin-top: 12px;
+}
