@@ -9,7 +9,7 @@
       "imports": []
     },
     "scss/styles.css": {
-      "bytes": 1535,
+      "bytes": 1524,
       "imports": []
     },
     "js/functions/hello-world.js": {
@@ -103,10 +103,10 @@
           "bytesInOutput": 13126
         },
         "scss/styles.css": {
-          "bytesInOutput": 1304
+          "bytesInOutput": 1294
         }
       },
-      "bytes": 14431
+      "bytes": 14421
     }
   }
 }
