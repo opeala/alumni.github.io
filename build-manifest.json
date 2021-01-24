@@ -5,7 +5,7 @@
       "imports": []
     },
     "css/styles.css": {
-      "bytes": 23528,
+      "bytes": 23557,
       "imports": []
     },
     "scss/styles.css": {
@@ -17,7 +17,7 @@
       "imports": []
     },
     "js/news.js": {
-      "bytes": 67524,
+      "bytes": 67876,
       "imports": []
     },
     "js/functions/anchor-links.js": {
@@ -90,7 +90,7 @@
           "bytesInOutput": 45
         },
         "js/news.js": {
-          "bytesInOutput": 52866
+          "bytesInOutput": 53031
         },
         "js/functions/anchor-links.js": {
           "bytesInOutput": 243
@@ -105,19 +105,19 @@
           "bytesInOutput": 84
         }
       },
-      "bytes": 5869748
+      "bytes": 5869913
     },
     "../~~bundle~~/js/index.css": {
       "imports": [],
       "inputs": {
         "css/styles.css": {
-          "bytesInOutput": 13550
+          "bytesInOutput": 13570
         },
         "scss/styles.css": {
           "bytesInOutput": 1294
         }
       },
-      "bytes": 14845
+      "bytes": 14865
     }
   }
 }
