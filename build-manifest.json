@@ -5,7 +5,7 @@
       "imports": []
     },
     "css/styles.css": {
-      "bytes": 22957,
+      "bytes": 23528,
       "imports": []
     },
     "scss/styles.css": {
@@ -14,6 +14,10 @@
     },
     "js/functions/hello-world.js": {
       "bytes": 68,
+      "imports": []
+    },
+    "js/news.js": {
+      "bytes": 67524,
       "imports": []
     },
     "js/functions/anchor-links.js": {
@@ -29,7 +33,7 @@
       "imports": []
     },
     "js/index.js": {
-      "bytes": 854,
+      "bytes": 918,
       "imports": [
         {
           "path": "css/styles.css",
@@ -41,6 +45,10 @@
         },
         {
           "path": "js/functions/hello-world.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "js/news.js",
           "kind": "import-statement"
         },
         {
@@ -81,6 +89,9 @@
         "js/functions/hello-world.js": {
           "bytesInOutput": 45
         },
+        "js/news.js": {
+          "bytesInOutput": 52866
+        },
         "js/functions/anchor-links.js": {
           "bytesInOutput": 243
         },
@@ -88,25 +99,25 @@
           "bytesInOutput": 96
         },
         "_snowpack/pkg/@fortawesome/fontawesome-pro/js/all.js": {
-          "bytesInOutput": 5816267
+          "bytesInOutput": 5816270
         },
         "js/index.js": {
-          "bytesInOutput": 79
+          "bytesInOutput": 84
         }
       },
-      "bytes": 5816874
+      "bytes": 5869748
     },
     "../~~bundle~~/js/index.css": {
       "imports": [],
       "inputs": {
         "css/styles.css": {
-          "bytesInOutput": 13126
+          "bytesInOutput": 13550
         },
         "scss/styles.css": {
           "bytesInOutput": 1294
         }
       },
-      "bytes": 14421
+      "bytes": 14845
     }
   }
 }
