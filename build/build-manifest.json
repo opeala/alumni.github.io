@@ -69,6 +69,10 @@
           "kind": "import-statement"
         }
       ]
+    },
+    "news.html.inline.0.css": {
+      "bytes": 171,
+      "imports": []
     }
   },
   "outputs": {
@@ -123,6 +127,15 @@
         }
       },
       "bytes": 14865
+    },
+    "../~~bundle~~/news.html.inline.0.css": {
+      "imports": [],
+      "inputs": {
+        "news.html.inline.0.css": {
+          "bytesInOutput": 86
+        }
+      },
+      "bytes": 87
     }
   }
 }

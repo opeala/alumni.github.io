@@ -1,0 +1,53 @@
+// Scss imports:
+// variables/mixins for whole site:
+@import './variables/variables.scss';
+// Functions for whole site:
+@import './functions/fade-on-load.scss';
+// Components for individual parts:
+@import './components/header.scss';
+@import './components/hero.scss';
+@import './components/updates.scss';
+@import './components/banner.scss';
+@import './components/article.scss';
+
+// Setup Styling: 
+body,html {
+  scroll-behavior: smooth;
+  font-family: NEC-Avenir, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+body {
+  background-color: $page-bg;
+}
+
+.bg {
+  &-darkBlue {
+    &-500 {background-color: $darkBlue-500;}
+    &-600 {background-color: $darkBlue-600;}
+  }
+  &-link-color{background-color: $link-color;}
+}
+.text {
+  &-darkBlue {
+    &-500 {color: $darkBlue-500;}
+    &-600 {color: $darkBlue-600;}
+  }
+  &-icon-color{color: $icon-color;}
+  &-title-color{color: $title-color;}
+  &-link-color{color: $link-color;}
+}
+.border {
+  &-darkBlue {
+    &-500 {border-color: $darkBlue-500;}
+    &-600 {border-color: $darkBlue-600;}
+  }
+}
+.placeholder {
+  &-placeholder-text::placeholder{color: $placeholder-text;}
+}
+
+// this is to hide some weird buggy thing that may or may not be caused by one of my chrome extensions...
+div#ntfApp {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

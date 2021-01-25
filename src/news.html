@@ -1,14 +1,29 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Starter Snowpack App">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Starter Snowpack App" />
     <title>Alumni Article</title>
-  <link rel="stylesheet" href="/js/index.css"></head>
-  <body class="loadHidden">
+  </head>
+  <body>
+    <style>
+        .loadHidden {
+          opacity: 0;
+        }
+  
+        .loadVisible {
+          opacity: 1 !important;
+          transition: opacity 1s ease-out;
+        }
+    </style>
+    <script>
+        document.body.classList.add('loadHidden');
+    </script>
     <!-- Header -->
     <header class="header bg-darkBlue-600 px-9 md:px-0">
       <div class="header__container max-w-screen-lg mx-auto flex justify-between py-4">
-        <img class="header__container__image" src="./media/images/NEC_Group_Alumni_White.png" alt>
+        <img class="header__container__image" src="./media/images/NEC_Group_Alumni_White.png" alt="">
         <p class="header__container__text text-right text-white uppercase flex items-center justify-end text-lg font-black tracking-widest	">Keeping lasting connections</p>
       </div>
     </header>
@@ -18,7 +33,7 @@
         <div class="banner__container max-w-screen-lg mx-auto flex px-9 md:px-0 md:flex-row flex-col-reverse justify-between">
             <div class="banner__container__info flex flex-row items-center justify-start">
                 <img src="./media/images/gold_disk.png" alt="Alumni Disk">
-                <h2>Alumni News &amp; Updates</h2>
+                <h2>Alumni News & Updates</h2>
             </div>
             <a href="/" class="banner__container__back bg-white flex items-center tabindex py-2 -mx-9 px-9 mb-4 md:mx-0 md:px-0 md:mb-0 text-link-color">
                 <i class="fal fa-angle-left mr-3"></i>
@@ -72,7 +87,7 @@
                     <div class="article__container__sidebar__form__intro transition-all opacity-100 flex flex-col items-center">
                         <i class="article__container__sidebar__form__intro__icon fal fa-envelope text-3xl mb-3 text-icon-color"></i>
                         <p class="article__container__sidebar__form__intro__title mb-3 font-black text-lg text-title-color">Newsletter Sign Up</p>
-                        <form action class="flex flex-col items-center text-sm">
+                        <form action="" class="flex flex-col items-center text-sm">
                             <input class="w-full rounded-lg py-2 px-3 mb-3 border-solid border tabindex" type="text" name="fname" id="fname" placeholder="First Name">
                             <input class="w-full rounded-lg py-2 px-3 mb-3 border-solid border tabindex" type="text" name="lname" id="lname" placeholder="Last Name">
                             <input class="w-full rounded-lg py-2 px-3 mb-3 border-solid border tabindex" type="email" name="email" id="email" placeholder="Personal Email Address">
@@ -121,7 +136,7 @@
                             Title of news update to go here and can go over a few lines
                         </a></li>
                     </ul>
-                    <img class="article__container__sidebar__links__image mb-4" src="./media/images/NEC_Group_Alumni_Blue.png" alt>
+                    <img class="article__container__sidebar__links__image mb-4" src="./media/images/NEC_Group_Alumni_Blue.png" alt="">
                 </div>
             </div>
         </div>
@@ -135,5 +150,5 @@
     </footer> -->
 
     <script type="module" src="js/index.js"></script>
-  
-</body></html>
+  </body>
+</html>
