@@ -16,16 +16,21 @@
       "bytes": 68,
       "imports": []
     },
-    "js/news.js": {
-      "bytes": 67876,
+    "js/functions/tab-index.js": {
+      "bytes": 560,
       "imports": []
+    },
+    "js/functions/news.js": {
+      "bytes": 67945,
+      "imports": [
+        {
+          "path": "js/functions/tab-index.js",
+          "kind": "import-statement"
+        }
+      ]
     },
     "js/functions/anchor-links.js": {
       "bytes": 1276,
-      "imports": []
-    },
-    "js/functions/tab-index.js": {
-      "bytes": 560,
       "imports": []
     },
     "_snowpack/pkg/@fortawesome/fontawesome-pro/js/all.js": {
@@ -33,7 +38,7 @@
       "imports": []
     },
     "js/index.js": {
-      "bytes": 918,
+      "bytes": 928,
       "imports": [
         {
           "path": "css/styles.css",
@@ -48,7 +53,7 @@
           "kind": "import-statement"
         },
         {
-          "path": "js/news.js",
+          "path": "js/functions/news.js",
           "kind": "import-statement"
         },
         {
@@ -89,14 +94,14 @@
         "js/functions/hello-world.js": {
           "bytesInOutput": 45
         },
-        "js/news.js": {
-          "bytesInOutput": 53031
+        "js/functions/tab-index.js": {
+          "bytesInOutput": 96
+        },
+        "js/functions/news.js": {
+          "bytesInOutput": 53036
         },
         "js/functions/anchor-links.js": {
           "bytesInOutput": 243
-        },
-        "js/functions/tab-index.js": {
-          "bytesInOutput": 96
         },
         "_snowpack/pkg/@fortawesome/fontawesome-pro/js/all.js": {
           "bytesInOutput": 5816270
@@ -105,7 +110,7 @@
           "bytesInOutput": 84
         }
       },
-      "bytes": 5869913
+      "bytes": 5869918
     },
     "../~~bundle~~/js/index.css": {
       "imports": [],
