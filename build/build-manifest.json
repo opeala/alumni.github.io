@@ -5,7 +5,7 @@
       "imports": []
     },
     "css/styles.css": {
-      "bytes": 23557,
+      "bytes": 23751,
       "imports": []
     },
     "scss/styles.css": {
@@ -17,11 +17,11 @@
       "imports": []
     },
     "js/functions/tab-index.js": {
-      "bytes": 560,
+      "bytes": 810,
       "imports": []
     },
     "js/functions/news.js": {
-      "bytes": 67945,
+      "bytes": 4198,
       "imports": [
         {
           "path": "js/functions/tab-index.js",
@@ -38,7 +38,7 @@
       "imports": []
     },
     "js/index.js": {
-      "bytes": 928,
+      "bytes": 926,
       "imports": [
         {
           "path": "css/styles.css",
@@ -99,34 +99,34 @@
           "bytesInOutput": 45
         },
         "js/functions/tab-index.js": {
-          "bytesInOutput": 96
+          "bytesInOutput": 169
         },
         "js/functions/news.js": {
-          "bytesInOutput": 53036
+          "bytesInOutput": 1348
         },
         "js/functions/anchor-links.js": {
           "bytesInOutput": 243
         },
         "_snowpack/pkg/@fortawesome/fontawesome-pro/js/all.js": {
-          "bytesInOutput": 5816270
+          "bytesInOutput": 5816273
         },
         "js/index.js": {
           "bytesInOutput": 84
         }
       },
-      "bytes": 5869918
+      "bytes": 5818306
     },
     "../~~bundle~~/js/index.css": {
       "imports": [],
       "inputs": {
         "css/styles.css": {
-          "bytesInOutput": 13570
+          "bytesInOutput": 13654
         },
         "scss/styles.css": {
           "bytesInOutput": 1294
         }
       },
-      "bytes": 14865
+      "bytes": 14949
     },
     "../~~bundle~~/news.html.inline.0.css": {
       "imports": [],
